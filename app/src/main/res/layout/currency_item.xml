@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_element"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_currency_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="@dimen/_16sp"
+        tools:text="Доллар США" />
+
+    <TextView
+        android:id="@+id/tv_currency_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16sp"
+        tools:text="100.234" />
+</LinearLayout>
